@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html,
+body {
+  @apply text-zinc-200;
+  @apply flex items-center justify-center;
+  @apply h-full max-h-screen;
+}
+
+
+body {
+
+  background-color: #99ceff;
+  background-image:
+    radial-gradient(at 28% 78%, hsla(329, 74%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 58% 34%, hsla(207, 87%, 66%, 1) 0px, transparent 50%),
+    radial-gradient(at 27% 55%, hsla(194, 76%, 63%, 1) 0px, transparent 50%),
+    radial-gradient(at 36% 80%, hsla(128, 91%, 72%, 1) 0px, transparent 50%),
+    radial-gradient(at 13% 82%, hsla(186, 90%, 72%, 1) 0px, transparent 50%),
+    radial-gradient(at 22% 38%, hsla(201, 63%, 60%, 1) 0px, transparent 50%),
+    radial-gradient(at 30% 17%, hsla(9, 61%, 76%, 1) 0px, transparent 50%);
+}
